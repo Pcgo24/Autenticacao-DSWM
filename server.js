@@ -60,7 +60,7 @@ app.get('/pagina', (req, res) => {
     `);
 });
 
-// preciso que quando o usuário clique no botão sair, ele seja redirecionado para a página de login e não consiga acessar a página protegida novamente sem fazer login
+// Configurando a rota de Logout
 
 app.get('/logout', (req, res) => {
     req.session.destroy(err => {
