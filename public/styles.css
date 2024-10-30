@@ -1,0 +1,147 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00C8D7;
+    color: #333;
+}
+
+.login-container {
+    background-color: white;
+    width: 300px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 0.75rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-bottom-color: #00C8D7;
+    outline: none;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    background-color: #00C8D7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #00a6b3;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.tentednv-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    background-color: #00C8D7;
+    color: #333;
+}
+
+.tentednv-container button
+
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    background-color: #85858562;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.pag-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    background-color: #00C8D7;
+    color: #333;
+}
+
+.pag-container button
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    background-color: #00C8D7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    background-color: #85858562;
+}
+
+.pag-container p
+{
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 5px;
+}
