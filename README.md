@@ -18,12 +18,13 @@ Este é um sistema simples de autenticação para aplicações web, desenvolvido
 - **JavaScript**
 - **Cookies**
 - **Sessions**
+- **CSS**
 
 ---
 
 ## 👤 Colaboradores
 
-- [Pcgo24](https://github.com/Pcgo24) (autor)
+- [Pcgo24](https://github.com/Pcgo24) (Autor)
 - [Luis Henryque](https://github.com/louiszhh) (Autor)
 
 ---
