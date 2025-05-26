@@ -22,7 +22,7 @@ Este é um sistema simples de autenticação para aplicações web, desenvolvido
 
 ---
 
-## 👤 Colaboradores
+## 👤 Autores
 
 - [Paulo Cesar C. Domingues](https://github.com/Pcgo24) (Autor)
 - [Luis Henryque](https://github.com/louiszhh) (Autor)
